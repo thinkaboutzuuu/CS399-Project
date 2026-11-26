@@ -1,0 +1,8 @@
+01 user Question {"text": "A family member is concerned that residents get weaker after they come here. What does our worsened number say about that, and how should I explain it to her? Can this tool tell me anything about her mother specifically, or is it only about the whole home?"}
+02 interaction Query {"metric": "falls rate", "start": 2022, "end": 2023, "kind": "trend"}
+03 query Evidence {"scope": "endpoints", "points": [{"year": 2022, "rate": "16.5"}, {"year": 2023, "rate": "17.0"}], "change": "0.5", "annual_pattern": "rose every year"}
+04 evaluation Feedback {"verdict": "accept", "reason": "The cited observations cover the request and support the endpoint change."}
+05 interaction Answer {"status": "accepted", "text": "Falls rate, 2022–2023: 16.5% to 17.0% (+0.5 percentage points). The annual rate rose every year.\nEvidence: 2022 16.5%, 2023 17.0%"}
+[accepted] synthetic_rates.csv
+Falls rate, 2022–2023: 16.5% to 17.0% (+0.5 percentage points). The annual rate rose every year.
+Evidence: 2022 16.5%, 2023 17.0%
