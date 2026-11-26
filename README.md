@@ -7,7 +7,7 @@ This Python demo compares direct agent-to-agent messaging with a route that chec
 Install Python 3.12, then run this command from the repository root.
 
 ```bash
-./initial_test/run_demo.sh
+./john_mediator/run_demo.sh
 ```
 
-The launcher creates a virtual environment, installs dependencies on the first run, and writes a log under `initial_test/outputs/`. The default demo runs without an API key. See the [demo guide](initial_test/mediator_demo/README.md) for route options and optional Cohere integration.
+The launcher creates a virtual environment, installs dependencies on the first run, and writes a log under `john_mediator/outputs/`. The default demo runs without an API key. See the [demo guide](john_mediator/mediator_demo/README.md) for route options and optional Cohere integration.

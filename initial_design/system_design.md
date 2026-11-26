@@ -16,7 +16,7 @@ python -m initial_design --trace
 If the earlier mediator demo is already installed, its environment can also run the new system directly from the repository root:
 
 ```sh
-initial_test/mediator_demo/.venv/bin/python -m initial_design --trace
+john_mediator/mediator_demo/.venv/bin/python -m initial_design --trace
 ```
 
 The default run asks for the falls rate trend from 2021 to 2024. Compare it with an endpoint question, or limit the number of Query Agent turns to see how the evaluation changes:

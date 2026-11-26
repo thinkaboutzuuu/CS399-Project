@@ -4,7 +4,7 @@ The sender submits the same query in both runs. AutoGen Core routes it directly 
 
 ## Run locally
 
-From the repository root, `cd initial_test` and run `./run_demo.sh` with Python 3.12 installed. The launcher saves each run's output and errors to a timestamped file in `outputs/` and prints the log path in the terminal. A run with both routes keeps both results together in one file.
+From the repository root, `cd john_mediator` and run `./run_demo.sh` with Python 3.12 installed. The launcher saves each run's output and errors to a timestamped file in `outputs/` and prints the log path in the terminal. A run with both routes keeps both results together in one file.
 
 The default run looks up `CIHI-LTC-FALLS`, a local entry based on CIHI’s published 2024–2025 Canadian long-term care falls result (17%). Both routes return the same excerpt. The mediator changes “Hey, could you please tell me the 2024–2025 long-term care falls rate?” to “Tell me the 2024–2025 long-term care falls rate?” and preserves the index and 20-word answer limit. Use `--index CIHI-LTC-ANTIPSYCHOTICS` with a matching `--question` to try the other entry. The following command shows the mediator rejecting an unknown index before the receiver is called.
 
